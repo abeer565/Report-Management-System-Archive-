@@ -12,4 +12,5 @@
 for desighing the page i used the bootstrap model ..ect
 
 #Database
-imported the Flask-SQLAlchemy
+   imported the Flask-SQLAlchemy
+   i used postgresql  
