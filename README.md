@@ -15,3 +15,4 @@ for desighing the page i used the bootstrap model ..ect
    - imported the Flask-SQLAlchemy
    - i used postgresql 
       - Postgres.app with PostgreSQL 14 (Universal)
+   - Created a database called RSMA
