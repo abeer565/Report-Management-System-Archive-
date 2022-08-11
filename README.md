@@ -11,6 +11,7 @@
 # design the web page 
 for desighing the page i used the bootstrap model ..ect
 
-#Database
-   imported the Flask-SQLAlchemy
-   i used postgresql  
+# Database
+   - imported the Flask-SQLAlchemy
+   - i used postgresql 
+      - Postgres.app with PostgreSQL 14 (Universal)
