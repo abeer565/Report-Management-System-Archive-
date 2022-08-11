@@ -5,3 +5,9 @@
     depndecie needed to be installed pip3 install Flask-WTF
     pip install sqlalchemy-utils
     pip install PyMySQL
+    
+#Coding program 
+ i used Pycharm CE
+#design the web page 
+for desighing the page i used the bootstrap model ..ect
+
