@@ -6,8 +6,8 @@
     pip install sqlalchemy-utils
     pip install PyMySQL
     
-#Coding program 
+# Coding program 
  i used Pycharm CE
-#design the web page 
+# design the web page 
 for desighing the page i used the bootstrap model ..ect
 
