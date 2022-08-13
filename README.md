@@ -65,15 +65,15 @@ this is a project of CRUD system with users and admin role.
            - a "Go Back" button has been added to the page ,once you press it will direct you to the home page of the system. 
        
 ## Flask login 
-   - Instaling flask-login
-   - User table has been created in postgre database using terminl
-   - signup page has been established (as an extra) ,you need to signup to enter: 
-                        - user_name
-                        - user_password
-                        - user_email
-                        - user_role (Admin or regular user)
-                        - user_group
-   - login page has been established and you need to login to enter : 
-                        - user_name
-                        - user_password
+       - Instaling flask-login
+       - User table has been created in postgre database using terminl
+       - signup page has been established (as an extra) ,you need to signup to enter: 
+                            - user_name
+                            - user_password
+                            - user_email
+                            - user_role (Admin or regular user)
+                            - user_group
+       - login page has been established and you need to login to enter : 
+                            - user_name
+                            - user_password
                        
