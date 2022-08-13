@@ -67,3 +67,13 @@ this is a project of CRUD system with users and admin role.
 ## Flask login 
    - Instaling flask-login
    - User table has been created in postgre database using terminl
+   - signup page has been established (as an extra) ,you need to signup to enter: 
+                        - user_name
+                        - user_password
+                        - user_email
+                        - user_role (Admin or regular user)
+                        - user_group
+   - login page has been established and you need to login to enter : 
+                        - user_name
+                        - user_password
+                       
