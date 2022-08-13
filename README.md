@@ -54,5 +54,6 @@ this is a project of CRUD system with users and admin role.
 ## Search
     -Search using different criteria.
            - you have the choice to search by report name or report_content or  report_tag or report_group or report_editor_uploader.
-     - the search result will display in the reportresult.html      
+     - the search result will display in the reportresult.html  
+           - a "Go Back" button has been added to the page ,once you press it will direct you to the home page of the system. 
        
