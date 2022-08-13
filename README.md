@@ -80,3 +80,5 @@ this is a project of CRUD system with users and admin role.
         - logout page has been added. 
         - for the  the home page and the table users page ,it have been protedcted that means the user need to login inorder to enter theses pages. 
                        
+# Flask Admin
+   - Instal flask-admin
