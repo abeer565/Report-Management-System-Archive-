@@ -82,3 +82,6 @@ this is a project of CRUD system with users and admin role.
                        
 # Flask Admin
    - Instal flask-admin
+   - In flask you can import flask admin to help us with the managing the user. 
+   - So flask admin has been imported and I linked to the user table then the CRUD ability for managing the users by the admin has been established. 
+
