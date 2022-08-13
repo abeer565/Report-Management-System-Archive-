@@ -66,4 +66,4 @@ this is a project of CRUD system with users and admin role.
        
 ## Flask login 
    - Instaling flask-login
-   - 
+   - User table has been created in postgre database using terminl
