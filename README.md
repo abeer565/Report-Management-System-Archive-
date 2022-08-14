@@ -43,7 +43,7 @@ this is a project of CRUD system with users and admin role.
         - inside the db two tables have been created called reports ,users 
             - reports table 
                 - the colomns are :  
-                        - id 
+                        - id (PRIMARY KEY)
                         - report_name
                         - report_content
                         - report_group
@@ -52,7 +52,7 @@ this is a project of CRUD system with users and admin role.
                         - rreport_related_files
             - Users table 
                 - the colomns are :  
-                        - user_id 
+                        - user_id (PRIMARY KEY)
                         - user_name
                         - user_password
                         - user_email
@@ -60,7 +60,13 @@ this is a project of CRUD system with users and admin role.
                         - user_group
                         - is_admin (the colomn has been created and boolean and by defualt=false)
                         
-                        
+            - users_group table 
+                - the colomns are :  
+                        - id (PRIMARY KEY)
+                        - user_id
+                        - title
+                        -  fk_user FOREIGN KEY (user_id) REFERENCES Users table (id)
+                  
 # system pages 
    - home page 
    - admin-signup
