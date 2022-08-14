@@ -59,6 +59,17 @@ this is a project of CRUD system with users and admin role.
                         - user_role
                         - user_group
                         - is_admin (the colomn has been created and boolean and by defualt=false)
+                        
+                        
+# system pages 
+   - home page 
+   - admin-signup
+   - reportresult 
+   - search
+   - signup
+   - user tble 
+   - Group Managment
+
 ## Search
     -Search using different criteria.
            - you have the choice to search by report name or report_content or  report_tag or report_group or report_editor_uploader.
@@ -91,12 +102,7 @@ this is a project of CRUD system with users and admin role.
     - same for the admin dashboared , if the the user not logged-in the system it will not access it.
     - Create admin page has been created. 
     - Admin dashboard link
-            - If you are an admin you will see an admin dashboard link in the left side of the home page that will direct you to               the admin page after press it. 
-# system pages 
-   - home page 
-   - admin-signup
-   - reportresult 
-   - search
-   - signup
-   - user tble 
+            - If you are an admin you will see an admin dashboard link in the left side of the home page that will direct you to the admin page after press it. 
+            
+# Group Management (CRUD) 
    
