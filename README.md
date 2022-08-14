@@ -58,7 +58,7 @@ this is a project of CRUD system with users and admin role.
                         - user_email
                         - user_role
                         - user_group
-                        - is_admin
+                        - is_admin (the colomn has been created and boolean and by defualt=false)
 ## Search
     -Search using different criteria.
            - you have the choice to search by report name or report_content or  report_tag or report_group or report_editor_uploader.
