@@ -59,13 +59,11 @@ this is a project of CRUD system with users and admin role.
                         - user_role
                         - user_group
                         - is_admin (the colomn has been created and boolean and by defualt=false)
-                        
-            - users_group table 
+      
+            - groups table 
                 - the colomns are :  
                         - id (PRIMARY KEY)
-                        - user_id
                         - title
-                        -  fk_user FOREIGN KEY (user_id) REFERENCES Users table (id)
                   
 # system pages 
    - home page 
