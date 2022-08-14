@@ -85,3 +85,6 @@ this is a project of CRUD system with users and admin role.
    - In flask you can import flask admin to help us with the managing the user. 
    - So flask admin has been imported and I linked to the user table then the CRUD ability for managing the users by the admin has been established. 
 
+# authnitication and roles 
+    - if the user is not logged-in ,the user will not be allowd to enter the system.
+    - same for the admin dashboared , if the the user not logged-in the system it will not access it.
