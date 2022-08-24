@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% include 'header.html' %}
+
+
+{% block title %} Home page {% endblock %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<h1>Search Reports Result </h1>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col" class="text-left">Report Name</th>
+            <th scope="col" class="text-left">Report Content</th>
+            <th scope="col" class="text-left">Report Tag</th>
+            <th scope="col" class="text-left">Report Group Title</th>
+            <th scope="col" class="text-left">Report Editor/Uploader</th>
+    {% for i in range(count) %}
+        <tr>
+        <td> {{ result1[i] }} </td>
+        <td> {{ result2[i] }} </td>
+        <td> {{ result3[i] }} </td>
+        <td> {{ result4[i] }} </td>
+        <td> {{ result5[i] }} </td>
+
+        </tr>
+
+        </tr>
+    </thead>
+{% endfor %}
+</table>
+<div class="text-center text-lg-start pt-2">
+<button onclick="goBack()" class="pull-left mx-4 mb-3 btn btn-secondary btn-sm btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Go Back</button>
+</div>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+{% endblock %}
